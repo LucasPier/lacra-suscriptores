@@ -26,7 +26,7 @@
     "content_scripts": [{
         "js": ["lacra.js"],
         "css": ["lacra.css"],
-        "matches": ["*://*.lacapital.com.ar/*"],
+        "matches": ["*://*.lacapital.com.ar/*", "*://*.flipbook.com.ar/*"],
         "run_at": "document_end"
       }
     ]
