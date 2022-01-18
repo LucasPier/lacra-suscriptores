@@ -1,0 +1,33 @@
+{
+    "name": "La Capital Suscriptores",
+    "short_name": "lacra-suscriptores",
+    "description": "Desbloquea las notas para suscriptores en lacapital.com.ar",
+    "version": "1.0",
+    "author": "Lucas Pier",
+    "homepage_url": "https://github.com/LucasPier/lacra-suscriptores",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "/imagenes/favicon-16x16.png",
+        "32": "/imagenes/favicon-32x32.png",
+        "96": "/imagenes/favicon-96x96.png",
+        "144": "/imagenes/favicon-144x144.png"
+      }
+    },
+    "icons": {
+        "16": "/imagenes/favicon-16x16.png",
+        "32": "/imagenes/favicon-32x32.png",
+        "96": "/imagenes/favicon-96x96.png",
+        "144": "/imagenes/favicon-144x144.png"
+    },
+    "content_scripts": [{
+        "js": ["lacra.js"],
+        "css": ["lacra.css"],
+        "matches": ["*://*.lacapital.com.ar/*"],
+        "run_at": "document_end"
+      }
+    ]
+  }

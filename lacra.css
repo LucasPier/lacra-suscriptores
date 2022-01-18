@@ -1,0 +1,6 @@
+div.tp-modal, div.tp-backdrop, #onesignal-slidedown-container{
+    display: none;
+}
+body.tp-modal-open{
+    overflow: scroll!important;
+}
