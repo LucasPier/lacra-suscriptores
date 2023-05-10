@@ -1,13 +1,21 @@
 {
     "name": "La Capital Suscriptores",
     "short_name": "lacra-suscriptores",
-    "description": "Desbloquea las notas para suscriptores en lacapital.com.ar",
-    "version": "1.0",
+    "description": "Permite ver gratis las notas para suscriptores en lacapital.com.ar",
+    "version": "1.1",
     "author": "Lucas Pier",
     "homepage_url": "https://github.com/LucasPier/lacra-suscriptores",
     "manifest_version": 3,
-    "permissions": ["storage", "activeTab", "scripting"],
-    "host_permissions": ["<all_urls>"],
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "declarativeNetRequest"
+    ],
+    "host_permissions": ["*://*.lacapital.com.ar/*", "*://*.flipbook.com.ar/*", "*://cdn.wyleex.com/*"],
+    "background": {
+      "service_worker": "sw.js"
+    },
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
