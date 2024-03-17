@@ -10,3 +10,4 @@
         setTimeout(desbloquearDatos, 100);
     }
     desbloquearDatos();
+    console.log("¡La Crapital activo!");

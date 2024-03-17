@@ -8,7 +8,7 @@ chrome.declarativeNetRequest.updateDynamicRules(
         },
         condition: {
           urlFilter: "cdn.wyleex.com", // block URLs that starts with this
-          domains: ["www.lacapital.com.ar"], // on this domain
+          domains: ["www.lacapital.com.ar", "flipbook.lacapital.com.ar"], // on this domain
         },
         id: adblockRuleID,
         priority: 1,
