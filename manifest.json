@@ -2,7 +2,7 @@
     "name": "La Capital Suscriptores",
     "short_name": "lacra-suscriptores",
     "description": "Permite ver gratis las notas para suscriptores en lacapital.com.ar",
-    "version": "1.1",
+    "version": "1.2",
     "author": "Lucas Pier",
     "homepage_url": "https://github.com/LucasPier/lacra-suscriptores",
     "manifest_version": 3,

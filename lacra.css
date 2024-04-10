@@ -4,3 +4,12 @@ div.tp-modal, div.tp-backdrop, #onesignal-slidedown-container{
 body.tp-modal-open{
     overflow: scroll!important;
 }
+.exclusive-icon{
+    background: #000000cf!important;
+}
+.exclusive-icon svg path {
+    fill: rgb(245 2 2);
+}
+body .exclusive-entry .volanta {
+    color: #ff5353ad !important;
+}
